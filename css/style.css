@@ -69,11 +69,13 @@ h3{
 /*HEADER*/
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 4rem;
 }
 
 .header__logo{
-    margin: 3rem 0;
+    margin: 1rem 0;
+    width: 300px;
 }
 
 /*FOOTER*/
