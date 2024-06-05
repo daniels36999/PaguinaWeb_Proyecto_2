@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda Online DX</title>
+    <title>Tienda Online</title>
 
     <link rel="preload" href="../css/normalize.css" as="style">
     <link rel="stylesheet" href="../css/normalize.css">
@@ -19,13 +19,14 @@
 <body>
 
     <header class="header">
-        <a href="index.html">
-            <img class="header__logo" src="../img/logo.png" alt="logotipo">
+        <a href="https://daniels36999.github.io/portafolio-daniels/ target="_blank"">
+            <img class="header__logo" src="/img/logo.png" alt="logotipo">
         </a>
+        <h1>Producto</h1>
     </header>
 
     <nav class="navegacion">
-        <a class="navegacion__enlace " href="/index.html">Tienda</a>
+        <a class="navegacion__enlace " href="/PaguinaWeb_Proyecto_2/index.html">Tienda</a>
         <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
     </nav>
 
@@ -41,23 +42,54 @@
                 </p>
 
                 <form class="formulario">
-                    <select class="formulario_campo">
+                    <select class="form1 formulario_campo">
                         <option disabled selected> Selecciona el Color </option>
                         <option class="formulario_campo_opcion"> Rojo </option>
                         <option class="formulario_campo_opcion"> Azul </option>
                         <option class="formulario_campo_opcion"> Negro </option>
                     </select>
-                    <input class="formulario_campo" type="number" placeholder="Cantidad" min="1">
-                    <input class="formulario_submit" type="submit" value="Agregar al Carrito">
+                    <input class="form2 formulario_campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="form3 formulario_submit" type="submit" value="Agregar al Carrito">
                 </form>
             </div>
         </div>
  
     </main>
 
-    <footer class="footer">
-        <p class="footer__texto">2024 © Daniel Patricio Yautibug, Todos los derechos reservados.</p>
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Porqué comprar con nosotros?</h2>
+        <div class="bloques">
+            <div class="bloque"><!--BLOQUE1-->>
+                <img class="bloque__imagen" src="../img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Descubre nuestras increíbles ofertas diseñadas especialmente para desarrolladores como tú. Desde herramientas de desarrollo hasta recursos educativos. </p>
+            </div>
+            <div class="bloque"><!--BLOQUE1-->>
+                <img class="bloque__imagen" src="../img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Para DEVS</h3>
+                <p>Explora nuestra selección de herramientas y recursos diseñados para potenciar tu creatividad y productividad como desarrollador. </p>
+            </div>
+            <div class="bloque"><!--BLOQUE1-->>
+                <img class="bloque__imagen" src="../img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Envío Gratis</h3>
+                <p>En nuestra tienda, el envío es completamente gratis para todos nuestros productos. Sin importar el tamaño o el peso de tu pedido, te lo enviamos donde sea que estés sin costos adicionales.</p>
+            </div>
+            <div class="bloque"><!--BLOQUE1-->>
+                <img class="bloque__imagen" src="../img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo">La mejor calida</h3>
+                <p>Nos comprometemos a ofrecerte solo productos de la más alta calidad. Desde hardware hasta libros de programación, cada artículo en nuestra tienda ha sido cuidadosamente seleccionado para garantizar tu satisfacción. </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer-container-2">
+        <div id="app"></div>
     </footer>
+
+    <script src="../js/script.js"></script>
     
 </body>
 </html>
